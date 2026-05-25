@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 164, 196);
+}
+.card
+{
+    width: 700px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* styling the scrollbar */
+::-webkit-scrollbar{ /* gives the complete scrollbar we can set the scrollbar to transprant*/
+
+    background-color:transparent;
+    width: 10px; 
+    /* width in horizontal manner */
+
+}
+::-webkit-scrollbar-thumb
+{
+/* background-color: rgb(61, 17, 96); */
+
+background:linear-gradient( #312c8d,#652de4,
+#aa3fff,
+#f25eff,#ff84ff,#ffa9ff,
+#ffc5ff);
+border-radius: 50px;
+}
+
+/* using grabinet we can combine the 2 colors at a time [
+  
+background:linear-gradient("#312c8d",
+  "#652de4",
+  "#aa3fff",
+  "#f25eff",
+  "#ff84ff",
+  "#ffa9ff",
+  "#ffc5ff")
+] */
